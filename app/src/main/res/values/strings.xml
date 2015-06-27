@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gallery Olano</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ver Galeria</string>
+    <string name="title_activity_gallery">Gallery</string>
+</resources>
