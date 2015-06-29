@@ -12,10 +12,10 @@
     <title>Justified Nav Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../../CSS/justified-nav.css" rel="stylesheet">
+    <link href="../CSS/justified-nav.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -37,9 +37,9 @@
       <div class="masthead">
         <nav>
           <ul class="nav nav-justified">
-              <li><a href="../../ModuloVentas/Inicio.jsp">Inicio</a></li>
-            <li class="active"><a href="#">Producto</a></li>
-            <li><a href="../Cliente/Cliente.jsp">Cliente</a></li>
+            <li class="active"><a href="#">Inicio</a></li>
+            <li><a href="../Vistas/Producto/Producto.jsp">Producto</a></li>
+            <li><a href="../Vistas/Cliente/Cliente.jsp">Cliente</a></li>
             <li><a href="#">Ventas</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
