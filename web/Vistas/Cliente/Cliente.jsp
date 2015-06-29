@@ -47,13 +47,76 @@
         </nav>
       </div>
     </nav>
-      
-      <!-- Jumbotron -->
-      <div class="jumbotron">
-        <h1>Marketing stuff!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
-      </div>
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+      <div class="box box-primary">
+
+            <div class="container">
+                <br>
+                <div class="page-header" align="left">
+                    <h1>Mantenimiento Cliente</h1>
+                </div>
+                 <form action="../../integrantes" id="checkout-form" class="form-horizontal">
+                 <center>
+                     <div class="form-group">
+                        <label class="control-label col-xs-3">Nombres:</label>
+                        <div class="col-xs-9">
+                            <input type="text" class="form-control" name="nombre" onkeypress="return soloLetras(event)" placeholder="Nombres" required="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-xs-3">Apellido Paterno</label>
+                        <div class="col-xs-9">
+                            <input type="text" class="form-control" name="ape_paterno" onkeypress="return soloLetras(event)" placeholder="Apellido Paterno" required="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-xs-3">Apellido Materno:</label>
+                        <div class="col-xs-9">
+                            <input type="text" class="form-control" name="ape_materno" placeholder="Apellido Materno" onkeypress="return soloLetras(event)" required="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-xs-3">Codigo Estudiante:</label>
+                        <div class="col-xs-9">
+                            <input type="number" class="form-control" name="co_estudiante" onkeypress="return Num9(event, this)" onkeyUp="return ValNumero(this);" placeholder="Codigo Estudiante" required="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-xs-3">N° Camiseta:</label>
+                        <div class="col-xs-9">
+                            <input type="number" class="form-control" name="nu_camiseta" onkeypress="return Num3(event, this)" onkeyUp="return ValNumero(this);" placeholder="N° Camiseta" required="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-xs-3">N° DNI:</label>
+                        <div class="col-xs-9">
+                            <input type="number" class="form-control" name="dni" onkeypress="return Num(event, this)" onkeyUp="return ValNumero(this);" placeholder="N° DNI" required="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-xs-3">N° Celular:</label>
+                        <div class="col-xs-9">
+                            <input type="number" class="form-control" name="cell" onkeypress="return Num9(event, this)" onkeyUp="return ValNumero(this);" placeholder="N° Celular" required="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-xs-3">Email:</label>
+                        <div class="col-xs-9">
+                            <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                        </div>
+                    </div>
+                    <input type="hidden" name="opc"  class="submit" value="Registrar_Integrantes">
+                    <div class="form-group">
+                        <footer>
+                            <div class="col-xs-offset-3 col-xs-9" align="center">
+                                <button type="submit" class="btn btn-primary">Registrar</button>
+                                <input type="reset" class="btn btn-default" value="Limpiar">
+                            </div>
+                        </footer>
+                    </div>
+                    <%@include  file="ListarCliente.jsp" %>
+                 </center>
+                 </form>                
+            </div>
+        </div>
   </body>
 </html>
