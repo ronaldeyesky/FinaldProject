@@ -33,7 +33,7 @@
                     <th>Apellido Materno</th>
                     <th>Dni</th>
                     <th>Direccion</th>
-                    <th>Cumpleaños</th>    
+                    <%--<th>Cumpleaños</th>--%>    
                     <th>Telefono</th>
                     <th>Correo</th>
                     <th></th>

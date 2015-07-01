@@ -73,7 +73,7 @@
                         <div class="col-xs-9">
                             <input type="text" class="form-control" name="ape_materno" placeholder="Apellido Materno" onkeypress="return soloLetras(event)" required="">
                         </div>
-                    </div>
+                        <%--</div>
                     <div class="form-group">
                         <label class="control-label col-xs-3">Codigo Estudiante:</label>
                         <div class="col-xs-9">
@@ -85,7 +85,7 @@
                         <div class="col-xs-9">
                             <input type="number" class="form-control" name="nu_camiseta" onkeypress="return Num3(event, this)" onkeyUp="return ValNumero(this);" placeholder="N° Camiseta" required="">
                         </div>
-                    </div>
+                    </div>--%>
                     <div class="form-group">
                         <label class="control-label col-xs-3">N° DNI:</label>
                         <div class="col-xs-9">

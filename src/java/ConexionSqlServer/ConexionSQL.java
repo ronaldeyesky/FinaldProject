@@ -29,9 +29,11 @@ public class ConexionSQL {
         
         while(rs.next()){
             System.out.println(rs.getString("nombre"));
-            System.out.println(rs.getString("apellido"));
-            System.out.println(rs.getString("fecha_nacimiento"));
-            System.out.println(rs.getString("direccion"));
+            System.out.println(rs.getString("apellido paterno"));
+            System.out.println(rs.getString("apellido materno"));
+            System.out.println(rs.getString("dni"));
+            System.out.println(rs.getString("n° celular"));
+            System.out.println(rs.getString("email"));
         }
         }
         catch(ClassNotFoundException exc){

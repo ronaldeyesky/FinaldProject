@@ -58,18 +58,18 @@
                  <form action="../../integrantes" id="checkout-form" class="form-horizontal">
                  <center>
                      <div class="form-group">
-                        <label class="control-label col-xs-3">Nombres:</label>
+                        <label class="control-label col-xs-3"¨Producto:</label>
                         <div class="col-xs-9">
                             <input type="text" class="form-control" name="nombre" onkeypress="return soloLetras(event)" placeholder="Nombres" required="">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="control-label col-xs-3">Apellido Paterno</label>
+                        <label class="control-label col-xs-3">Cantidad</label>
                         <div class="col-xs-9">
                             <input type="text" class="form-control" name="ape_paterno" onkeypress="return soloLetras(event)" placeholder="Apellido Paterno" required="">
                         </div>
                     </div>
-                    <div class="form-group">
+                   <%-- <div class="form-group">
                         <label class="control-label col-xs-3">Apellido Materno:</label>
                         <div class="col-xs-9">
                             <input type="text" class="form-control" name="ape_materno" placeholder="Apellido Materno" onkeypress="return soloLetras(event)" required="">
@@ -86,7 +86,7 @@
                         <div class="col-xs-9">
                             <input type="number" class="form-control" name="nu_camiseta" onkeypress="return Num3(event, this)" onkeyUp="return ValNumero(this);" placeholder="N° Camiseta" required="">
                         </div>
-                    </div>
+                    </div>--%>
                     <div class="form-group">
                         <label class="control-label col-xs-3">N° DNI:</label>
                         <div class="col-xs-9">
