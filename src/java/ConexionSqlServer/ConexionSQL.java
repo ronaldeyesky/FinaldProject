@@ -23,7 +23,7 @@ public class ConexionSQL {
     public ConexionSQL(){
         try{
         Class.forName("com.mysql.jdbc.Driver");
-        Connection co = DriverManager.getConnection("jdbc:mysql://localhost/ventas?user=root&password=root");
+        Connection co = DriverManager.getConnection("jdbc:mysql://localhost/ventas_final?user=root&password=root");
         Statement stm = co.createStatement();      
         ResultSet rs = stm.executeQuery("Select * from Clientes");
         

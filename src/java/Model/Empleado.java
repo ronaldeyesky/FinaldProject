@@ -10,6 +10,6 @@ package Model;
  *
  * @author SAMUEL
  */
-public class Usuario {
+public class Empleado {
     
 }
