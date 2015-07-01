@@ -58,7 +58,7 @@
                  <form action="../../integrantes" id="checkout-form" class="form-horizontal">
                  <center>
                      <div class="form-group">
-                        <label class="control-label col-xs-3"¨Producto:</label>
+                        <label class="control-label col-xs-3">Producto:</label>
                         <div class="col-xs-9">
                             <input type="text" class="form-control" name="nombre" onkeypress="return soloLetras(event)" placeholder="Nombres" required="">
                         </div>
