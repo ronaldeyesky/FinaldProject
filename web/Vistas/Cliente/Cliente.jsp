@@ -73,6 +73,7 @@
                         <div class="col-xs-9">
                             <input type="text" class="form-control" name="ape_materno" placeholder="Apellido Materno" onkeypress="return soloLetras(event)" required="">
                         </div>
+                    </div>
                         <%--</div>
                     <div class="form-group">
                         <label class="control-label col-xs-3">Codigo Estudiante:</label>

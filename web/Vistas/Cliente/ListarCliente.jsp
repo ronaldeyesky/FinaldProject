@@ -47,7 +47,6 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
                     <td>
                         <a href="" class="btn btn-primary btn-sm">Editar</a>
                         <a href="" class="btn btn-primary btn-sm">Eliminar</a>
